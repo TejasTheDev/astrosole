@@ -39,14 +39,13 @@
 
 /*.............login........... */
 
-/* @media (max-width:600px){
+@media (max-width:600px){
   .login{
     position: relative;
-    bottom: 60px;
-    right: 30px;
-    max-width: 450px;
-    margin-right: -200px;
-    margin-left: 20px;
+    right: 0px;
+    max-width: 480px;
+    margin-right: -160px;
+    margin-left: 0px;
     font-size: 12px;
   }
   .log-head{
@@ -60,7 +59,7 @@
     bottom: 70px;
     max-width: 65.5%;
   }
-} */
+}
 /* ..........astrologerLogin .......... */
 @media (max-width:650px){
   .astrolog{
