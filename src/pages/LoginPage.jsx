@@ -8,14 +8,14 @@ const LoginPage = () => {
     return (
         <>
             {/* <PublicNavbar /> */}
-            <section className="max-h-screen overflow-y-hidden">
-                <div className="container px-4 mx-auto login">
+            <section className="max-h-screen overflow-y-hidden ">
+                <div className="container px-4 mx-auto">
                     <div className="max-w-5xl mx-auto">
                         <div className="flex h-screen overflow-y-hidden">
                             <div className="m-auto">
-                                <div className="flex flex-col items-center justify-center mb-10 log-head">
+                                <div className="flex flex-col items-center justify-center mb-10 sm:position ">
                                     <div>
-                                        <h3 className="text-2xl font-bold font-heading uppercase ">
+                                        <h3 className="text-2xl font-bold font-heading uppercase">
                                             {/* Header */}
                                             AstroSoul
                                         </h3>
@@ -27,9 +27,9 @@ const LoginPage = () => {
 
                                     {/* </div> */}
                                 </div>
-                                <h4 className="text-gray-400 log-box">Mobile Number</h4>
+                                <h4 className="text-gray-400">Mobile Number</h4>
 
-                                <div className="flex items-center pl-6 w-[34rem] mb-6 border border-slate-400 bg-white rounded-lg log-box">
+                                <div className="flex items-center pl-6 w-[34rem] mb-6 border border-slate-400 bg-white rounded-lg ">
                                     <FiPhoneCall />
                                     {/* Password */}
                                     <input
@@ -39,12 +39,12 @@ const LoginPage = () => {
                                         placeholder=" +91 45692 36562"
                                     />
                                 </div>
-                                {/* <div className="flex flex-col item-center justify-center"> */}
+                                {/* <div className="flex flex-col item-center justify-center"> */}    
                                 {/* <div> */}
                                 <Link to="/">
                                     <button
                                         type="submit"
-                                        className="py-4 w-full bg-[#ff0000] hover:bg-[#ff4d00] text-white font-bold rounded-lg transition duration-200 log-box"
+                                        className="py-4 w-full bg-[#ff0000] hover:bg-[#ff4d00] text-white font-bold rounded-lg transition duration-200 "
                                     >
                                         Login
                                     </button>

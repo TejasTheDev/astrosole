@@ -39,7 +39,7 @@
 
 /*.............login........... */
 
-@media (max-width:600px){
+/* @media (max-width:600px){
   .login{
     position: relative;
     bottom: 60px;
@@ -60,7 +60,7 @@
     bottom: 70px;
     max-width: 65.5%;
   }
-}
+} */
 /* ..........astrologerLogin .......... */
 @media (max-width:650px){
   .astrolog{
@@ -90,7 +90,7 @@
 
 /* ..........astro register............ */
 
-@media (max-width:600px){
+@media (max-width:700px){
   .cir-resp{
     position: relative;
     right: 75px;
@@ -99,26 +99,32 @@
     height: 15px;
     width: 30px;
   }
-}
-
-
-@media (max-width:550px){
-  .gen_info_applay{
-    position: absolute;
-    top: 250px;
-    left: 10%;
-    height: 100vh;
+  .disc{
+    display: none;
   }
 }
+
+
+
 
 @media (max-width:600px){
   .gene{
     position: relative;
-    right: 90px;
-    max-width: 600px;
-    margin-right: 0px;
-    font-size: 15px;
+    right: 80px;
+    max-width: 450px;
+    margin-right: -160px;
+    margin-left: 0px;
+    font-size: 12px;
   }
+  .gene-check{
+    position: relative;
+    right: 10px;
+    font-size: 10px;
+  }
+  .check-select{
+    padding-left: 5px;
+  }
+  
 }
 
 @media (max-width:600px){
@@ -158,10 +164,10 @@
 @media (max-width:450px){
   .prof{
     position: relative;
-    right: 90px;
+    right: 80px;
     max-width: 450px;
     margin-right: -160px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: 12px;
   }
   .prof-box{

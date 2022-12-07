@@ -10,14 +10,14 @@ const Account = () => {
     };
     return (
         <div className="flex flex-col gene">
-            <div className="w-full mx-2 flex-1 gen_info_applay">
+            <div className="w-full mx-2 flex-1 gene-check">
                 {/* checkBox */}
                 <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase ">
                     {" "}
                     Applying as <span className="text-red-500">*</span>
                 </div>
-                <div className="flex justify-between mt-6">
-                    <div className="form-check form-check-inline">
+                <div className="flex justify-between mt-6 ">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -31,7 +31,7 @@ const Account = () => {
                             Astrologer
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -45,7 +45,7 @@ const Account = () => {
                             Healing
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -59,7 +59,7 @@ const Account = () => {
                             Numerology
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -73,7 +73,7 @@ const Account = () => {
                             Palmist
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -87,7 +87,7 @@ const Account = () => {
                             Pandit
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -101,7 +101,7 @@ const Account = () => {
                             Tarot Reader
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -115,7 +115,7 @@ const Account = () => {
                             Vastu Expert
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -129,7 +129,7 @@ const Account = () => {
                             Yoga Guru
                         </label>
                     </div>
-                    <div className="form-check form-check-inline">
+                    <div className="form-check form-check-inline check-select">
                         <input
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox"
@@ -143,9 +143,11 @@ const Account = () => {
                             Others  
                         </label>
                     </div>
+                    </div>
                 </div>
                 {/* checkBox */}
                 {/* phone number */}
+                <div className="gene-box">
                 <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
                     {" "}
                     Mobile No <span className="text-red-500">*</span>
@@ -184,7 +186,7 @@ const Account = () => {
                     />
                 </div>
             </div>
-            <div className="w-full mx-2 flex-1">
+            <div className="w-full mx-2 flex-1 gene-box">
                 <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
                     {" "}
                     Gender
@@ -200,8 +202,8 @@ const Account = () => {
                     />
                 </div>
             </div>
-            <div className="w-full mx-2 flex-1">
-                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase">
+            <div className="w-full mx-2 flex-1 gene-box">
+                <div className="font-bold h-6 mt-3 text-gray-500 text-xs leading-8 uppercase ">
                     {" "}
                     Language
                 </div>
@@ -216,7 +218,7 @@ const Account = () => {
                     />
                 </div>
             </div>
-        </div>
+            </div>
     );
 };
 
