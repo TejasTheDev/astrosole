@@ -27,14 +27,14 @@ const LoginPage = () => {
 
                                     {/* </div> */}
                                 </div>
-                                <h4 className="text-gray-400 log-head">Mobile Number</h4>
+                                <h4 className="text-gray-400 log-h4">Mobile Number</h4>
 
-                                <div className="flex items-center pl-6 w-[34rem] mb-6 border border-slate-400 bg-white rounded-lg log-box">
+                                <div className="flex items-center pl-6 w-[34rem] mb-6 border border-slate-400 bg-white rounded-lg log-box-no">
                                     <FiPhoneCall />
                                     {/* Password */}
                                     <input
                                         value=""
-                                        className="w-full pr-6 pl-4 py-4 font-bold placeholder-gray-300 rounded-r-full focus:outline-none"
+                                        className="w-full pr-6 pl-4 py-4 font-bold placeholder-gray-300 rounded-r-full focus:outline-none "
                                         type="phonenumber"
                                         placeholder=" +91 45692 36562"
                                     />
