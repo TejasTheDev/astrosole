@@ -8,7 +8,7 @@ const LoginPage = () => {
     return (
         <>
             {/* <PublicNavbar /> */}
-            <section className="max-h-screen overflow-y-hidden login">
+            <section className="max-h-screen overflow-y-hidden ">
                 <div className="container px-4 mx-auto">
                     <div className="max-w-5xl mx-auto">
                         <div className="flex h-screen overflow-y-hidden">
