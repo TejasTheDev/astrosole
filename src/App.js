@@ -20,6 +20,12 @@ import Festival from './components/Festival';
 import Stones from './components/Stone'
 import AstrologerRegistration from './components/AstrologerRegistrationn/AstrologerRegistration';
 import AstrologerLogin from './components/AstrologerLogin';
+import AstroSidebar from './components/Astrologer/Sidebar/AstroSidebar';
+import Dailyhoroscope from './components/Astrologer/Dailyhoroscope';
+import Dashboard from './components/Astrologer/Dashboard';
+import BasicDetails from './components/Astrologer/BasicDetails';
+import AdminDashboard from './components/Astrologer/AdminDashboard';
+import AdminHoroscope from './components/Astrologer/AdminHoroscope';
 function App() {
    
   return (
@@ -50,6 +56,12 @@ function App() {
           path="/astrologerLogin"
           element={<AstrologerLogin />}
         />
+        <Route path='/astrosidebar' element={<AstroSidebar/>}/>
+        <Route path='/dailyhoroscope' element={<Dailyhoroscope/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/basicDetails' element={<BasicDetails/>}/>
+        <Route path='/adminDashboard' element={<AdminDashboard/>}/>
+        <Route path='/adminHoroscope' element={<AdminHoroscope/>}/>
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

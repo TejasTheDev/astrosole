@@ -1,0 +1,33 @@
+.box{
+    position: relative;
+    right: 2.5%;
+    width: 105%;
+}
+h1{
+    position: relative;
+    right: 2.3%;
+    font-size: 28px;
+    font-weight: 500;
+}
+h2{
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+h3{
+    position: relative;
+    top: 10%;
+    left: 8%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+i{
+    position: relative;
+    left: 70%;
+    bottom: 26%;
+    font-size: 65px;
+    color: rgba(71, 70, 70, 0.363);
+}

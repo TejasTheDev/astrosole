@@ -1,0 +1,22 @@
+h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+}
+.bg-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 10px;
+    background: #f8c15b;
+}
+.grid-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}

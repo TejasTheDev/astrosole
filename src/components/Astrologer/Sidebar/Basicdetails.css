@@ -1,0 +1,16 @@
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.line{
+    background: #ff993a;
+    height: 2.5px;
+    width: 100%;
+}
+td{
+    font-size: 1px;
+}
