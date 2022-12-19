@@ -1,7 +1,7 @@
 import React from 'react'
 import AstroSidebar from './Sidebar/AstroSidebar'
-
 import './Sidebar/Dailyhoroscope.css'
+
 const Dailyhoroscope = () => {
   return (
 <div className=" dashboard parent md:h-screen md:grid md:grid-cols-6">

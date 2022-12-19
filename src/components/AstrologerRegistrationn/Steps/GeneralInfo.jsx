@@ -152,7 +152,7 @@ const Account = () => {
                     {" "}
                     Mobile No <span className="text-red-500">*</span>
                 </div>
-                <div className="bg-white my-2 p-1 flex border border-gray-200 rounded form-group mt-2 d-inline-block">
+                <div className="bg-w    hite my-2 p-1 flex border border-gray-200 rounded form-group mt-2 d-inline-block">
                     <span className="country-code px-2">+60</span>
                     <input type="text" className="" placeholder="91257888" />
                 </div>

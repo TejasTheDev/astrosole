@@ -1,0 +1,13 @@
+.line{
+    height: 1px;
+    width: 100%;
+    background: #a5a4a4;
+}
+i{
+    color: rgb(48, 48, 49);
+    font-size: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}

@@ -26,6 +26,10 @@ import Dashboard from './components/Astrologer/Dashboard';
 import BasicDetails from './components/Astrologer/BasicDetails';
 import AdminDashboard from './components/Astrologer/AdminDashboard';
 import AdminHoroscope from './components/Astrologer/AdminHoroscope';
+import AdminAstroCategory from './components/Astrologer/AdminAstroCategory';
+import AdminLanguage from './components/Astrologer/AdminLanguage';
+import Astro_Zodiac_Sign_List from './components/Astrologer/Astro_Zodiac_Sign_List';
+import Admin_add_astro from './components/Astrologer/Admin_add_astro';
 function App() {
    
   return (
@@ -62,6 +66,10 @@ function App() {
         <Route path='/basicDetails' element={<BasicDetails/>}/>
         <Route path='/adminDashboard' element={<AdminDashboard/>}/>
         <Route path='/adminHoroscope' element={<AdminHoroscope/>}/>
+        <Route path='/adminAstroCategory' element={<AdminAstroCategory/>}/>
+        <Route path='/adminLanguage' element={<AdminLanguage/>}/>
+        <Route path='/astro_Zodiac_Sign_List' element={<Astro_Zodiac_Sign_List/>}/>
+        <Route path='/admin_add_astro' element={<Admin_add_astro/>}/>
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>
