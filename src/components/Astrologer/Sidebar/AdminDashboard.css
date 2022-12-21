@@ -24,10 +24,10 @@ h3{
     font-size: 20px;
     color: #fff;
 }
-i{
+.icon{
     position: relative;
-    left: 70%;
-    bottom: 26%;
     font-size: 65px;
+    left: 63%;
+    bottom: 26%;
     color: rgba(71, 70, 70, 0.363);
 }

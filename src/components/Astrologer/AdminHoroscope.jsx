@@ -14,8 +14,52 @@ import Sagittarius from '../../images/Sagittarius.png'
 import Capricornus from '../../images/Capricornus.png'
 import Aquarius from '../../images/Aquarius.png'
 import Pisces from '../../images/Pisces.png'
+// import axios from "axios";
 
 const AdminHoroscope = () => {
+//      JavaScript Request Example 
+
+// var apiEndPoint = "horoscope_prediction/daily/:signName";
+// var userId = "610";
+// var apiKey = "159c61f6e5b5835353a95165b72f9a93";
+// var language = "en";
+// var data1 = {
+//     "timezone": 5.5
+// };
+// const data = JSON.stringify(data1)
+
+// var url = 'https://json.apireports.com/v1/'+apiEndPoint;
+// const headers = {
+//     "Authorization": "Basic " + btoa(userId+":"+apiKey),
+//     "Accept-Language": "en",
+//     "Content-Type":'application/json'
+// }
+// const horoscope = async () => {
+//     const da = await axios.post(
+//         url,
+//         headers,
+//         data
+//     )
+//     console.log(da,'data')
+// }
+// horoscope();
+// var request = $.ajax({
+// 	url: url,
+// 	method: "POST",
+// 	dataType:'json',
+	
+// });
+
+// request.then(
+// 	function(resp){
+// 		console.log(resp);
+// 	},
+// 	function(err){
+// 		console.log(err);
+// 	}
+// );
+
+/* END */
   return(
     <div className=" dashboard parent md:h-screen md:grid md:grid-cols-6">
         <section class="sidebar md:col-span-1">

@@ -18,22 +18,22 @@ const AdminDashboard = () => {
                     <div className="bg-blue-500 rounded-md shadow-xl min-h-[130px]">
                         <h2>522</h2>
                         <h3>Astrologers</h3>
-                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-user icon"></i>
                     </div>
                     <div className="bg-green-500 rounded-md shadow-xl min-h-[130px]">
                         <h2>682</h2>
                         <h3>Users</h3>
-                        <i class="fa-solid fa-users"></i>
+                        <i class="fa-solid fa-users icon"></i>
                     </div>
                     <div className="bg-red-400 rounded-md shadow-xl min-h-[130px]">
                         <h2>952</h2>
                         <h3>Services</h3>
-                        <i class="fa-solid fa-car"></i>
+                        <i class="fa-solid fa-car icon"></i>
                     </div>
                     <div className="bg-yellow-400 rounded-md shadow-xl min-h-[130px]">
                         <h2>$ 75752</h2>
                         <h3>Amount</h3>
-                        <i class="fa-sharp fa-solid fa-chart-pie"></i>
+                        <i class="fa-sharp fa-solid fa-chart-pie icon"></i>
                     </div>
                 </div>
             </div>
