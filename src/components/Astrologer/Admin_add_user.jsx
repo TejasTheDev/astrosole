@@ -12,7 +12,7 @@ const Admin_add_user = () => {
         </section>
 
         <div className="dashboardContainer">
-            <div className="container">
+            <div className="px-4">
                 <div class=" p-6 h-[auto] rounded overflow-hidden shadow-lg">
                     <h1 className='relative left-2 m'>Add Astrologer</h1>
                     <div className='line'></div>
@@ -35,13 +35,13 @@ const Admin_add_user = () => {
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                           Mobile No.
                         </label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="number" placeholder="Username"/>
                       </div>
                       <div class="mb-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
                           Password
                         </label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="password" placeholder="Username"/>
                       </div>
                       <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
@@ -59,7 +59,7 @@ const Admin_add_user = () => {
                       <div class="mb-6">
                         <div class="datepicker relative form-floating mb-3 xl:w-full" data-mdb-toggle-button="false">
                           <label for="floatingInput" class="block text-gray-700 text-sm font-bold mb-2">Date of Birth</label>
-                          <input type="text"class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline relative"
+                          <input type="date"class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline relative"
                           placeholder="dd-mm-yyyy" data-mdb-toggle="datepicker" />  
                         </div>
                       </div>
@@ -80,7 +80,7 @@ const Admin_add_user = () => {
                       <div class="mb-4">
                         <div class="timepicker relative form-floating mb-3 xl:w-full"> 
                         <label for="floatingInput" class="block text-gray-700 text-sm font-bold mb-2">Experience ( Years )</label>
-                          <input type="text"
+                          <input type="number"
                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline relative"
                           placeholder="Experence" />
                         </div>
@@ -113,7 +113,7 @@ const Admin_add_user = () => {
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
                         Pincode
                         </label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter Pincode"/>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="number" placeholder="Enter Pincode"/>
                       </div>
                      
                       {/* <div class="flex items-center justify-between">
