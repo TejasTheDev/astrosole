@@ -12,7 +12,7 @@ const Astro_Zodiac_Sign_List = () => {
         </section>
 
         <div className="dashboardContainer">
-            <div className="container">
+            <div className="px-4">
                 <div class=" p-6 h-[auto] rounded overflow-hidden shadow-lg">
                     <h1 className='relative left-2 m'>Horoscope List</h1>
                     <div className='line'></div>

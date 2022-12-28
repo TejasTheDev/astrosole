@@ -3,7 +3,7 @@ import AstroSidebar from './Sidebar/AstroSidebar'
 import './Sidebar/AdminHoro.css'
 
 const AdminAstroList = () => {
-  return (
+  return(
     <div className=" dashboard parent md:h-screen md:grid md:grid-cols-6">
         <section class="sidebar md:col-span-1">
             {" "}
@@ -47,7 +47,7 @@ const AdminAstroList = () => {
 {/* ,,,,,,,,,,,,,,,,,,,,Table Zone,,,,,,,,,,,,,,,,,,  */}
                     
                 <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                    <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+                    <table class="w-full text-base text-left text-gray-500 dark:text-gray-400">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
                                 <th scope="col" class="py-3 px-6">
@@ -55,7 +55,7 @@ const AdminAstroList = () => {
                                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-3 h-3 relative bottom-1" aria-hidden="true" fill="currentColor" viewBox="0 0 320 512"><path d="M27.66 224h264.7c24.6 0 36.89-29.78 19.54-47.12l-132.3-136.8c-5.406-5.406-12.47-8.107-19.53-8.107c-7.055 0-14.09 2.701-19.45 8.107L8.119 176.9C-9.229 194.2 3.055 224 27.66 224zM292.3 288H27.66c-24.6 0-36.89 29.77-19.54 47.12l132.5 136.8C145.9 477.3 152.1 480 160 480c7.053 0 14.12-2.703 19.53-8.109l132.3-136.8C329.2 317.8 316.9 288 292.3 288z"/></svg></a>
                                 </th>
                                 <th scope="col" class="py-3 px-6">
-                                    <div class="flex items-center">
+                                    <div class="flex items-center text-sm">
                                         Astrologer <br /> id
                                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-3 h-3" aria-hidden="true" fill="currentColor" viewBox="0 0 320 512"><path d="M27.66 224h264.7c24.6 0 36.89-29.78 19.54-47.12l-132.3-136.8c-5.406-5.406-12.47-8.107-19.53-8.107c-7.055 0-14.09 2.701-19.45 8.107L8.119 176.9C-9.229 194.2 3.055 224 27.66 224zM292.3 288H27.66c-24.6 0-36.89 29.77-19.54 47.12l132.5 136.8C145.9 477.3 152.1 480 160 480c7.053 0 14.12-2.703 19.53-8.109l132.3-136.8C329.2 317.8 316.9 288 292.3 288z"/></svg></a>
                                     </div>
@@ -103,25 +103,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     1
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100019
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Ranjanna
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     ranjanauniyal73@gmail.com
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     7389012567
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love, All, Career, Marriage, Health, Finance, Legal, Education, Remidies, Kids, Vedic Astrology, Tarot Card Reading, Kundli, Match Making, Birth time rectification
                                 </td>   
                             </tr>
@@ -131,24 +131,24 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     2
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100017
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Dr A K Sharma	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Male
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 akhil.sharma.astrologee@gmail.com	                                </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 9462076655
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love
                                 </td>   
                             </tr>
@@ -158,25 +158,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     3
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100016
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Neera
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     neeravishwakarma69@gmail.com	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 8965066882	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Love                                
                                 </td>   
                             </tr>
@@ -186,25 +186,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100014
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Tanushree
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     varmatanushree11@gmail.com	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     8779851882
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love, All, Career, Marriage, Health, Finance, Legal, Education, Remidies, Kids, Vedic Astrology, Tarot Card Reading
                                 </td>   
                             </tr>
@@ -214,25 +214,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     5
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100013
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Palak
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     palaksinha@gmail.com
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     7990224409
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love, All, Career, Marriage, Health, Finance, Legal, Education, Remidies, Kids, Vedic Astrology, Tarot Card Reading.
                                 </td>   
                             </tr>
@@ -242,25 +242,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     6
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100012
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Dr Manoj S
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Male
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     ManojSoni2256@gmail.com
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     7389012567
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love
                                 </td>   
                             </tr>
@@ -270,25 +270,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     7
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100011
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Acharya vijaya	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 chakrasadhna22@gmail.com	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 9414365226	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love, All, Career, Marriage, Health, Wealth, Finance, Education, Remidies, Vedic Astrology
 
                                 </td>   
@@ -299,25 +299,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     8
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100010
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Dr Krishna 
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Male
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 pankajdwivedi742@gmail.com	
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     7389012567
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love
                                 </td>   
                             </tr>
@@ -327,25 +327,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     9
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100009
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Vrunalini 
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 vrunalinikk@gmail.com		
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     9879012567
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love, Career, Marriage, Health, Wealth, Finance, Legal, Education, Remidies, Tarot Card Reading
                                 </td>   
                             </tr>
@@ -355,25 +355,25 @@ const AdminAstroList = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     10
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     AST100010
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Kvc 
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     Female
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 bhadanikritica05@gmail.com			
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 6291177899
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                     English,Hindi
                                 </td>   
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-base">
                                 Love
                                 </td>   
                             </tr>

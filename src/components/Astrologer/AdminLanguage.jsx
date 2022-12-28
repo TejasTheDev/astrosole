@@ -11,7 +11,7 @@ const AdminLanguage = () => {
         </section>
 
         <div className="dashboardContainer">
-            <div className="container">
+            <div className="px-4">
                 <div class=" p-6 h-[auto] rounded overflow-hidden shadow-lg">
                     <h1 className='relative left-2 m'>Horoscope List</h1>
                     <div className='line'></div>
@@ -35,7 +35,7 @@ const AdminLanguage = () => {
                         </div> 
                         <div className="mb-3 xl:w-96 ">
                             <div className="input-group relative top-6 left-[35%] flex flex-wrap items-stretch w-[70%] mb-4 ">
-                                <input type="search" class="form-control relative  flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2"/>
+                                <input type="search" class="form-control relative  flex-auto min-w-0 block w-full px-3 py-1.5 text-[15px] font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2"/>
                                 <button className="btn inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex  relative bottom-[37px] left-[83%]" type="button" id="button-addon2">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
@@ -46,7 +46,7 @@ const AdminLanguage = () => {
                     </div>
 {/* ................Table zone.................. */}
                     <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                        <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
+                        <table class="w-full text-[15px] text-left text-gray-500 dark:text-gray-400">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
                                     <th scope="col" class="py-3 px-6">
@@ -90,19 +90,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     1
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     English
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     English
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -115,19 +115,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     2
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Hindi
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     हिंदी
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -140,19 +140,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     3
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Bengali
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     বাংলা
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -165,19 +165,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Punjabi
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     ਪੰਜਾਬੀ
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -190,19 +190,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     5
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Gujrati
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     પસાર
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -215,19 +215,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     6
                                 </th>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Kannada
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     ಕನ್ನಡ
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-lg">
+                                <td class="py-4 px-6 text-[15px]">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>

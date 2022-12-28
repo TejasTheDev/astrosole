@@ -11,7 +11,7 @@ const AdminDashboard = () => {
         </section>
     
         <div className="dashboardContainer">
-            <div className="container">
+            <div className="px-4">
                 <h1>Dashboard</h1>
                 <br />  
                 <div className='box grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 p-1'>

@@ -11,7 +11,7 @@ const Dashboard = () => {
             </section>
         
             <div className="dashboardContainer">
-                <div className=" container dashboardSummary grid grid-cols-1">
+                <div className=" px-4 dashboardSummary grid grid-cols-1">
                     <div className=' rounded-lg min-h-[80px] h-4 font-bold'>
                         <h1 className='bg-color'>Dashboard</h1>
                     </div>

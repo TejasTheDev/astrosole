@@ -29,7 +29,7 @@ return (
  <>
    {/* <PublicNavbar /> */}
 
- <section className="flex gap-6">
+ <section className="">
      <div className={`min-h-screen ${open ? "w-72" : "w-16" } duration-500  px-4`}>
 <div className="py-3 flex justify-end">
  <HiMenuAlt3 size={26} className="cursor-pointer"

@@ -32,6 +32,7 @@ import Astro_Zodiac_Sign_List from './components/Astrologer/Astro_Zodiac_Sign_Li
 import Admin_add_user from './components/Astrologer/Admin_add_user';
 import AdminAstroList from './components/Astrologer/AdminAstroList';
 import AdminAddUser from './components/Astrologer/AdminAddUser';
+import AdminUserList from './components/Astrologer/AdminUserList';
 function App() {
    
   return (
@@ -75,6 +76,7 @@ function App() {
         <Route path='/admin_add_user' element={<Admin_add_user/>}/>
         <Route path='/adminAstroList' element={<AdminAstroList/>}/>
         <Route path='/adminAddUser' element={<AdminAddUser/>}/>
+        <Route path='/adminUserList' element={<AdminUserList/>}/>
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

@@ -25,7 +25,7 @@ const AdminAstroCategory = () => {
         </section>
         
         <div className="dashboardContainer">
-            <div className="container">
+            <div className="px-4">
                 <div class=" p-6 h-auto rounded overflow-hidden shadow-lg">
                     <h1 className='relative left-2 m'>Astrologer Category List</h1> 
                     <div className='line'></div>
@@ -143,13 +143,13 @@ const AdminAstroCategory = () => {
                                         11th May, 2022 09:14 PM
                                     </td>
                                     <td class="py-4 px-6 text-sm">
-                                        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                                             <span>Edit</span>
-                                        </button>
-                                        <button class="bg-red-300 hover:bg-red-400 text-red-800 font-bold py-2 px-4 rounded inline-flex items-center relative left-[3%]">
-                                             <span>Delete</span>
-                                        </button>
-                                    </td>   
+                                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                         <span>Edit</span>
+                                    </button>
+                                    <button class="bg-red-300 hover:bg-red-400 text-red-800 font-bold py-2 px-4 rounded inline-flex items-center relative left-[3%]">
+                                         <span>Delete</span>
+                                    </button>
+                                </td>  
                                 </tr>
                                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                                     <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">

@@ -10,9 +10,8 @@ const BasicDetails = () => {
             <AstroSidebar />
         </section>
     
-        <div className="dashboardContainer">
-            
-            <div className="container">
+        <div className="dashboardContainer">  
+            <div className="px-4">
                 <h1>Basic Details</h1>
                 <br />
                 <div className="line"></div>
