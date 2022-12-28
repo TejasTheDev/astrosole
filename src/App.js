@@ -30,10 +30,13 @@ import AdminAstroCategory from './components/Astrologer/AdminAstroCategory';
 import AdminLanguage from './components/Astrologer/AdminLanguage';
 import Astro_Zodiac_Sign_List from './components/Astrologer/Astro_Zodiac_Sign_List';
 import Admin_add_user from './components/Astrologer/Admin_add_user';
+import AdminAstroList from './components/Astrologer/AdminAstroList';
+import AdminAddUser from './components/Astrologer/AdminAddUser';
 function App() {
    
   return (
     <BrowserRouter>
+
       <PublicNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -70,6 +73,8 @@ function App() {
         <Route path='/adminLanguage' element={<AdminLanguage/>}/>
         <Route path='/astro_Zodiac_Sign_List' element={<Astro_Zodiac_Sign_List/>}/>
         <Route path='/admin_add_user' element={<Admin_add_user/>}/>
+        <Route path='/adminAstroList' element={<AdminAstroList/>}/>
+        <Route path='/adminAddUser' element={<AdminAddUser/>}/>
       </Routes>
     </BrowserRouter>
     // <h1 className="text-8xl  font-bold underline ">Hello world!</h1>

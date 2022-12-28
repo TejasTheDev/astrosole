@@ -46,7 +46,7 @@ const AdminLanguage = () => {
                     </div>
 {/* ................Table zone.................. */}
                     <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <table class="w-full text-lg text-left text-gray-500 dark:text-gray-400">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
                                     <th scope="col" class="py-3 px-6">
@@ -90,19 +90,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     1
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     English
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     English
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -115,19 +115,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     2
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Hindi
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     हिंदी
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -140,19 +140,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     3
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Bengali
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     বাংলা
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -165,19 +165,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Punjabi
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     ਪੰਜਾਬੀ
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -190,19 +190,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     5
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Gujrati
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     પસાર
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
@@ -215,19 +215,19 @@ const AdminLanguage = () => {
                                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     6
                                 </th>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Kannada
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     ಕನ್ನಡ
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     Active
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     7th May,2022 11:08AM
                                 </td>
-                                <td class="py-4 px-6 text-sm">
+                                <td class="py-4 px-6 text-lg">
                                     <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                                          <span>Edit</span>
                                     </button>
